@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>NIGHT FURY</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Oswald">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open Sans">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+h1,h2,h3,h4,h5,h6 {font-family: "Oswald"}
+body {font-family: "Open Sans"}
+</style>
+</head>
+<body class="w3-light-grey">
+
+<!-- Navigation bar with social media icons -->
+<div class="w3-bar w3-black w3-hide-small">
+  <a href="https://m.facebook.com/teambrahmastra" class="w3-bar-item w3-button"><i class="fa fa-facebook-official"></i></a>
+  <a href="https://www.instagram.com/team_brahmastra_quad/" class="w3-bar-item w3-button"><i class="fa fa-instagram"></i></a>
+  <a href="https://in.linkedin.com/company/team-brahmastra-quad" class="w3-bar-item w3-button"><i class="fa fa-linkedin"></i></a>
+  <a href="#" class="w3-bar-item w3-button w3-right"><i class="fa fa-search"></i></a>
+</div>
+  
+<!-- w3-content defines a container for fixed size centered content, 
+and is wrapped around the whole page content, except for the footer in this example -->
+<div class="w3-content" style="max-width:1600px">
+
+  <!-- Header -->
+  <header class="w3-container w3-center w3-padding-47 w3-white">
+    <h1 class="w3-xxxlarge"><b>BRAHMASTRA</b></h1>
+    <h3>ब्रह्मास्त्र ब्रम्हशिरा</span></h6>
+  </header>
+
+  <!-- Image header -->
+  <header class="w3-display-container w3-wide" id="home">
+    <img src="nf6.0 (1).jpg" alt="NIGHT FURY" height="600" width="1500">
+    <div class="w3-display-left w3-padding-large">
+      <h1 class="w3-text-white">TBQ</h1>
+      <h1 class="w3-jumbo w3-text-white w3-hide-small"><b>Night Fury 6.0</b></h1>
+      <h6><button class="w3-button w3-white w3-padding-large w3-large w3-opacity w3-hover-opacity-off" onclick="document.getElementById('subscribe').style.display='block'">Specifications</button></h6>
+    </div>
+  </header>
+
+  <!-- Grid -->
+  <div class="w3-row w3-padding w3-border">
+
+    <!-- Blog entries -->
+    <div class="w3-col l8 s12">
+    
+      <!-- Customer review -->
+      <div class="w3-container w3-white w3-margin w3-padding-large">
+        <div class="w3-center">
+          <h3>Customer Review</h3>
+             </div>
+
+        <div class="w3-justify">
+          <h5>Reviwer Name</h5>
+          <p>An all-terrain vehicle (ATV), also known as a light utility vehicle (LUV),[1] a quad bike, or simply a quad, as defined by the American National Standards Institute (ANSI), is a vehicle that travels on low-pressure tires, 
+            has a seat that is straddled by the operator, and has handlebars. As the name implies, it is designed to handle a wider variety of terrain than most other vehicles. Although it is a street-legal vehicle in some countries, 
+            it is not street-legal within most states, territories and provinces of Australia, the United States or Canada.</p>
+          <p class="w3-left"><button class="w3-button w3-white w3-border" onclick="likeFunction(this)"><b><i class="fa fa-thumbs-up"></i> Like</b></button></p>
+          <p class="w3-right"><button class="w3-button w3-black" onclick="myFunction('demo1')" id="myBtn"><b>Replies  </b> <span class="w3-tag w3-white">1</span></button></p>
+          <p class="w3-clear"></p>
+          <div class="w3-row w3-margin-bottom" id="demo" style="display:none">
+            <hr>
+                          
+          </div>
+        </div>
+      </div>
+      <hr>
+
+  
+    <!-- END BLOG ENTRIES -->
+  <!-- photo grid-->
+  <div class="w3-container w3-white w3-margin w3-padding-large">
+  <div class="w3-row-padding w3-padding-16 w3-center" id="food">
+    <div >
+      <img src="0.jpg" alt="rider" height="250" width="250">
+      <img src="1.jpg" alt="team" height="250" width="250">
+      <img src="2.jpg" alt="mud" height="250" width="250">
+    </div>
+    
+  </div>
+  </div>
+    </div>
+
+      <!-- About/Information menu -->
+    <div class="w3-col l4">
+
+      <hr>
+
+
+
+      <!-- Advertising -->
+      <div class="w3-white w3-margin">
+        <div class="w3-container w3-padding w3-black">
+          <h4>Advertise</h4>
+        </div>
+        <div class="w3-container w3-white">
+          <div class="w3-container w3-display-container w3-light-grey w3-section" style="height:200px">
+            <span class="w3-display-middle">Your AD Here</span>
+            <span class="">Contact For advertisement</span>
+          </div>
+        </div>
+      </div>
+      <hr>
+
+           
+      
+      <!-- order -->
+      <div class="w3-white w3-margin">
+        <div class="w3-container w3-padding w3-black">
+          <h4>Contact us</h4>
+        </div>
+        <div class="w3-container w3-white">
+          <p>Big order?</p>
+          <p>Enter your e-mail below. our team will contact you as soon as possible.</p>
+          <p><input class="w3-input w3-border" type="text" placeholder="Enter e-mail" style="width:100%"></p>
+          <p><button type="button" onclick="document.getElementById('subscribe').style.display='block'" class="w3-button w3-block w3-red">Submit</button></p>
+        </div>
+      </div>
+
+    <!-- END About/Intro Menu -->
+    </div>
+    
+  <!-- END GRID -->
+  </div>
+
+<!-- END w3-content -->
+</div>
+
+<!-- Subscribe Modal -->
+<div id="subscribe" class="w3-modal w3-animate-opacity">
+  <div class="w3-modal-content" style="padding:32px">
+    <div class="w3-container w3-white">
+      <i onclick="document.getElementById('subscribe').style.display='none'" class="fa fa-remove w3-transparent w3-button w3-xlarge w3-right"></i>
+      <h2 class="w3-wide">SPECIFICATION</h2>
+      <h4>Engine</h4>
+      <h6>Power:250CC</h6>
+      <h6>blah blah</h6>
+      <h4>Suspension</h4>
+    </div>
+  </div>
+</div>
+
+<!-- Footer -->
+<footer class="w3-container w3-dark-grey" style="padding:32px">
+  <a href="#" class="w3-button w3-black w3-padding-large w3-margin-bottom"><i class="fa fa-arrow-up w3-margin-right"></i>To the top</a>
+  </footer>
+
+<script>
+// Toggle between hiding and showing blog replies/comments
+document.getElementById("myBtn").click();
+function myFunction(id) {
+  var x = document.getElementById(id);
+  if (x.className.indexOf("w3-show") == -1) {
+    x.className += " w3-show";
+  } else { 
+    x.className = x.className.replace(" w3-show", "");
+  }
+}
+
+function likeFunction(x) {
+  x.style.fontWeight = "bold";
+  x.innerHTML = "✓ Liked";
+}
+</script>
+
+</body>
+</html>
